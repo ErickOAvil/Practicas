@@ -1,0 +1,87 @@
+.navegation {
+    font-size: 26px;
+}
+.navegation ul li{
+    display: inline-block;
+}
+ul{
+    padding-inline-start: 0cap;
+}
+.navegation ul li a{
+    text-decoration: none;
+    padding: 0.1rem 0.6rem;	
+    transition: all 0.2s linear;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 660;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navegation ul li a:hover{
+    background: rgba(212, 227, 130, 0.747); 
+}
+iframe{
+    width: 100%;
+}
+.caja{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.caja_informacion{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    background-color: rgb(130, 206, 249);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fondo, .clasex{
+    margin-top: 10px;
+    background-color: rgba(250, 241, 255, 0.87);
+}
+.imagen_producto{
+    max-width: 345px;
+    max-height: 330px;
+}
+.uno, .clasex{
+    max-width: 295px;
+    max-height: 330px;
+}
+.tres, .clasex{
+    max-width: 365px;
+    max-height: 330px;
+}
+.cuatro, .clasex{
+    max-width: 260px;
+    max-height: 330px;
+}
+button{
+    font-size: large;
+    background-color: rgba(255, 220, 80, 0.769);
+    border-radius: 2cqi;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.Ahora,.clasex{
+    font-size: large;
+    background-color: rgb(11, 88, 155);
+    border-radius: 2cqi;
+}
+.precio_producto{
+    font-size: 35px;
+}
+.titulo_producto{
+    font-size:  30px;
+    background-color: rgb(56, 255, 89);
+}
+p{
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h1{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
